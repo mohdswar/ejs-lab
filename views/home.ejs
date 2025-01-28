@@ -1,0 +1,28 @@
+<%- include('./partials/nav') %>
+
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            <%= restaurant.name %>
+        </title>
+    </head>
+
+    <body>
+        <h1>Home Page</h1>
+        <ul>
+            <li>
+                <%= restaurant.name %>
+                    <%= restaurant.address %>
+                        <%= restaurant.phone %>
+            </li>
+
+
+        </ul>
+
+    </body>
+
+    </html>
